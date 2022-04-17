@@ -16,19 +16,23 @@ const Blogs = () => {
                 <Accordion.Item >
                     <Accordion.Header>Question no.2: Why are you using firebase? And what other options do you have to implement Authentication?</Accordion.Header>
                     <Accordion.Body>
-                        I use firebase for the Authentication system of my website. As we know Firebase Authentication system provides us backend services, easy to use SDKs and ready made UI libraries to authenticate our app. It allow users to sign in to my app using one or more sign-in methods, which includes email address and password sign-in and federated identity providers such as Google Sign-in and Facebook Login etc.
+                        I use firebase for the Authentication system of my website. As we know Firebase Authentication system provides us backend services, easy to use SDKs and ready made UI libraries to authenticate our app. It allow users to sign in to my app using one or more sign-in methods, which includes email address and password sign-in and federated identity providers such as Google Sign-in and Facebook Login etc.There are many other options to implement authentication such as two-factor authentication(2FA), token authentication , biometric authentication , transaction authentication, computer recognition authentication etc
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item>
                     <Accordion.Header>Question no.3: What other services does firebase provide other than Authentication?</Accordion.Header>
                     <Accordion.Body>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                        est laborum.
+                        Firebase inc originally developed 'Firebase' and later acquired by Google. It provides various services that help us to develop high-quality mobile and web applications.It is compatible with Web, iOS, Android and OS X clients.There are a lot of other services other than Authentication which is provided by firebase.They  are written below:
+                        <li>Cloud Storage</li>
+                        <li>Google Analytics</li>
+                        <li>Cloud Messaging</li>
+                        <li>Hosting</li>
+                        <li>Machine Learning</li>
+                        <li>Cloud Firestore</li>
+                        <li>Cloud Functions</li>
+                        <li>Cloud Messaging</li>
+                        <li>Dynamic Links</li>
+
                     </Accordion.Body>
                 </Accordion.Item >
             </Accordion>
