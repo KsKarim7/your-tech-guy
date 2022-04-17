@@ -9,6 +9,7 @@ import About from './Pages/About/About';
 import NotFound from './Pages/Shared/NotFound/NotFound';
 import Footer from './Pages/Shared/Footer/Footer';
 import { Route, Routes } from 'react-router-dom';
+import Register from './Pages/Registration/Register/Register';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/home' element={<Home></Home>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
+        <Route path='/register' element={<Register></Register>}></Route>
         <Route path='/serviceDetail' element={<ServiceDetail></ServiceDetail>}></Route>
         <Route path='/checkout' element={<Checkout></Checkout>}></Route>
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>

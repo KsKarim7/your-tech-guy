@@ -1,0 +1,39 @@
+.form-container {
+    width: 600px;
+
+    margin: auto;
+    /* border: 1px solid #95A0A7; */
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-top: 100px;
+    padding: 50px 0px 60px 0px;
+    margin-bottom: 15px;
+    background-color: rgb(220, 220, 220);
+}
+
+.form-submit {
+    width: 415px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    font-size: 22px;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+
+.form-submit:hover {
+    background-color: black;
+}
+
+.form-link {
+    text-decoration: none;
+
+}
+
+.user {
+    color: rgb(137, 138, 139);
+}
+
+.text {
+    color: black;
+}
