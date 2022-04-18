@@ -12,7 +12,7 @@ const Header = () => {
     }
     return (
         <>
-            <Navbar collapseOnSelect sticky='top' expand="lg" bg="secondary" variant="dark">
+            <Navbar collapseOnSelect sticky='top' expand="lg" bg="dark" variant="dark">
                 <Container>
                     <Navbar.Brand href="#home">Your Tech Guy</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -24,10 +24,6 @@ const Header = () => {
                             <Nav.Link as={Link} to='/about'>About</Nav.Link>
                         </Nav>
                         <Nav>
-                            {/* <Nav.Link as={Link} to="/login">Login</Nav.Link>
-                            <Nav.Link eventKey={2} href="#memes">
-                                Log Out
-                            </Nav.Link> */}
                             {
                                 user ?
                                     <Nav.Link onClick={handleSignOut}>
