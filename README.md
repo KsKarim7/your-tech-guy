@@ -8,9 +8,9 @@ A short description about this site :
 
 - This site is about an individual tech service provider who is teaches and provides mentorship on the topics he is expert.  
 - Here user will be able to learn about web development, information technology .
--
--
--
+- A short description will be given in each of the services about it
+- Any one around the world can avail my course and mentorship through online payment.
+- Each course's time is around 6months, to be expert in an individual skill it takes a person atleast of 6months!
 
 
 

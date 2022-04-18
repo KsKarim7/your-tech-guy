@@ -9,6 +9,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Button } from 'bootstrap';
 import SocialLogin from './SocialLogin/SocialLogin';
+import Loading from '../../Shared/Spinner/Loading';
 
 const Login = () => {
     const emailRef = useRef('');
@@ -35,9 +36,9 @@ const Login = () => {
         setPassword(e.target.value);
     }
 
-    // if (loading || sending) {
-    //     return <Loading></Loading>
-    // }
+    if (loading || sending) {
+        return <Loading></Loading>
+    }
 
     if (user) {
         navigate(from, { replace: true })
