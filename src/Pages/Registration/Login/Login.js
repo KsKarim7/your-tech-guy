@@ -8,6 +8,7 @@ import auth from '../../../firebase.init';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Button } from 'bootstrap';
+import SocialLogin from './SocialLogin/SocialLogin';
 
 const Login = () => {
     const emailRef = useRef('');
@@ -90,7 +91,7 @@ const Login = () => {
                 {/* <p className='d-flex justify-content-end'>
                     Forget Password?  <button onClick={resetPassword} className='btn btn-link text-primary form-link mx-2' >Reset Password</button>
                 </p> */}
-                {/* <SocialLogin></SocialLogin> */}
+                <SocialLogin></SocialLogin>
                 <ToastContainer />
             </div>
         </div>
