@@ -1,5 +1,6 @@
 import React from 'react';
 import programming from '../../images/prog.jpeg'
+import Banner from '../Banner/Banner';
 import Description from '../Shared/Description/Description';
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
 
             </div>
             <Description></Description>
+            <Banner></Banner>
 
 
 
