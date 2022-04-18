@@ -1,23 +1,23 @@
 [
     {
-        "_id": "625d3f1ea27170b16361c64c",
-        "img": "http://placehold.it/32x32",
+        "id": "625d3f1ea27170b16361c64c",
+        "img": "https://i.ibb.co/XZxng0s/webdev.jpg",
         "price": 341,
-        "name": "Hazel Delgado",
-        "about": "Velit excepteur ipsum cillum non in eiusmod. Reprehenderit duis occaecat pariatur duis culpa excepteur laboris. Ea eu ut tempor magna quis qui ex ipsum sunt ea aute esse. Ullamco pariatur quis esse consequat dolore irure duis labore irure quis non qui.\r\n"
+        "name": "Web Developement",
+        "about": "Web development is the work involved in developing a website for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services."
     },
     {
-        "_id": "625d3f1e6914ca92693dba85",
-        "img": "http://placehold.it/32x32",
+        "id": "625d3f1e6914ca92693dba85",
+        "img": "https://i.ibb.co/KjgWB3V/tech.jpg",
         "price": 300,
-        "name": "Rodriguez Conley",
-        "about": "Proident pariatur laborum qui officia elit do cupidatat est elit. Velit officia culpa ea incididunt in quis. Eiusmod dolore pariatur ea sit sit do aliquip.\r\n"
+        "name": "Information Technology",
+        "about": "Information technology (IT) is the use of any computers, storage, networking and other physical devices, infrastructure and processes to create, process, store, secure and exchange all forms of electronic data."
     },
     {
-        "_id": "625d3f1ec8cd9aca9d03d086",
-        "img": "http://placehold.it/32x32",
+        "id": "625d3f1ec8cd9aca9d03d086",
+        "img": "https://i.ibb.co/Ph8wSBz/cse.jpg",
         "price": 408,
-        "name": "Lester Holland",
-        "about": "Laborum esse mollit qui esse enim. Laboris occaecat et irure cillum. Irure laboris dolor proident dolore in culpa laboris ex officia laborum cupidatat.\r\n"
+        "name": "Mentorship for studying cse efficiently",
+        "about": "When it is the matter of studying computer science and engineering efficiently a comes of things come up which we do not have to focus on other subjects. It is not the matter of grade or cgpa in cse while studying from a university .It is the matter of skills you develope. And I can help you to do the most out of it as a cse graduate student from a well known university."
     }
 ]

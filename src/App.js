@@ -2,7 +2,6 @@ import './App.css';
 import Header from './Pages/Shared/Header/Header';
 import Home from './Pages/Home/Home';
 import Login from './Pages/Registration/Login/Login';
-import ServiceDetail from './Pages/ServiceDetail/ServiceDetail';
 import Checkout from './Pages/Checkout/Checkout';
 import Blogs from './Pages/Blogs/Blogs';
 import About from './Pages/About/About';
@@ -22,7 +21,6 @@ function App() {
         <Route path='/home' element={<Home></Home>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>
-        <Route path='/serviceDetail' element={<ServiceDetail></ServiceDetail>}></Route>
         <Route path='/checkout' element={
           <RequireAuth>
             <Checkout></Checkout>
