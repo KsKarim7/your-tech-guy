@@ -26,7 +26,7 @@ const Login = () => {
         error,
     ] = useSignInWithEmailAndPassword(auth);
 
-    // const [sendPasswordResetEmail, sending] = useSendPasswordResetEmail(auth);
+    const [sendPasswordResetEmail, sending] = useSendPasswordResetEmail(auth);
 
     const handleEmailBlur = e => {
         setEmail(e.target.value);
@@ -54,16 +54,16 @@ const Login = () => {
 
     }
 
-    // const resetPassword = async () => {
-    //     const email = emailRef.current.value;
-    //     if (email) {
-    //         await sendPasswordResetEmail(email);
-    //         toast('Sent email')
-    //     }
-    //     else {
-    //         toast('enter an email address first')
-    //     }
-    // }
+    const resetPassword = async () => {
+        const email = emailRef.current.value;
+        if (email) {
+            await sendPasswordResetEmail(email);
+            toast('Sent email')
+        }
+        else {
+            toast('enter an email address first')
+        }
+    }
 
     return (
         <div className='form-container d-flex justify-content-center'>
@@ -88,9 +88,9 @@ const Login = () => {
                 <p className='d-flex justify-content-end user'>
                     Already a user?  <Link className='text form-link mx-2' to='/register'>Create an account!</Link>
                 </p>
-                {/* <p className='d-flex justify-content-end'>
+                <p className='d-flex justify-content-end'>
                     Forget Password?  <button onClick={resetPassword} className='btn btn-link text-primary form-link mx-2' >Reset Password</button>
-                </p> */}
+                </p>
                 <SocialLogin></SocialLogin>
                 <ToastContainer />
             </div>
