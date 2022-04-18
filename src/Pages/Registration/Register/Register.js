@@ -58,7 +58,7 @@ const Register = () => {
     return (
         <div className='form-container d-flex justify-content-center'>
             <div className='form-title'>
-                <h1 className='text-primary'>Sign Up</h1>
+                <h1 className='text-secondary'>Sign Up</h1>
                 <form onSubmit={handleCreateUser}>
                     <div className="mb-3 ">
                         <label htmlFor='email' className="form-label" >Email address</label>
@@ -72,17 +72,17 @@ const Register = () => {
                         <label htmlFor='confirm-password' className="form-label">Confirm Password</label>
                         <input onBlur={handleConfirmPasswordBlur} type="password" className="form-control" name='confirm-password' required />
                     </div>
-                    {/* <input onClick={() => setAgree(!agree)} type="checkbox" name="terms" id="terms" />
-                    <label className={agree ? 'text-primary ps-2' : 'text-danger ps-2'} htmlFor="terms" > Accept terms and conditions</label> */}
+                    <input onClick={() => setAgree(!agree)} type="checkbox" name="terms" id="terms" />
+                    <label className={agree ? 'text-secondary ps-2' : 'text-danger ps-2'} htmlFor="terms" > Accept terms and conditions</label>
                     <p className='text-danger' >{error}</p>
                     <input
                         disabled={!agree}
-                        className='form-submit bg-primary '
+                        className='form-submit bg-secondary '
                         type="submit"
                         value="Sign Up" />
                 </form>
-                <p className='d-flex justify-content-end'>
-                    Existing User?<Link className='text-primary form-link mx-2' to='/login'>Log In</Link>
+                <p className='d-flex justify-content-end user'>
+                    Existing User?<Link className='text form-link mx-2' to='/login'>Log In</Link>
                     {/* <SocialLogin></SocialLogin> */}
                 </p>
             </div>

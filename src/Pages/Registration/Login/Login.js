@@ -85,7 +85,7 @@ const Login = () => {
                 </form>
                 {errorElement}
                 <p className='d-flex justify-content-end user'>
-                    Already a user?  <Link className='text form-link mx-2' to='/signup'>Create an account!</Link>
+                    Already a user?  <Link className='text form-link mx-2' to='/register'>Create an account!</Link>
                 </p>
                 {/* <p className='d-flex justify-content-end'>
                     Forget Password?  <button onClick={resetPassword} className='btn btn-link text-primary form-link mx-2' >Reset Password</button>

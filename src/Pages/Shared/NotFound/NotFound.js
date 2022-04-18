@@ -1,9 +1,10 @@
 import React from 'react';
+import logo from '../../../images/3819740.jpg'
 
 const NotFound = () => {
     return (
         <div>
-            <h1>NOT FOUND</h1>
+            <img src={logo} className=" w-100 img-fluid" alt="..."></img>
         </div>
     );
 };

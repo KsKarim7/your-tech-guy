@@ -1,9 +1,13 @@
 import React from 'react';
+import thank from '../../images/thankYou.jpg'
 
 const Checkout = () => {
     return (
         <div>
-            <h2>See your booked mentorship here</h2>
+            <h2>Thank You for checking out.
+                I appreciate your presence in my website.
+            </h2>
+            <img src={thank} className=" w-100 img-fluid" alt="..."></img>
         </div>
     );
 };
