@@ -89,8 +89,8 @@ const Login = () => {
                 <p className='d-flex justify-content-end user'>
                     Already a user?  <Link className='text form-link mx-2' to='/register'>Create an account!</Link>
                 </p>
-                <p className='d-flex justify-content-end'>
-                    Forget Password?  <button onClick={resetPassword} className='btn btn-link text-primary form-link mx-2' >Reset Password</button>
+                <p className='d-flex justify-content-end user'>
+                    Forget Password?  <button onClick={resetPassword} className='btn btn-link text form-link ' >Reset Password</button>
                 </p>
                 <SocialLogin></SocialLogin>
                 <ToastContainer />

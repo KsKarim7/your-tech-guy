@@ -11,6 +11,7 @@ const ServiceDescription = ({ service }) => {
             <p>Price: {price}</p>
             <p><small>{about}</small></p>
             <Link to='/checkout' className='btn btn-secondary'>Book:{name}</Link>
+            {/*clicking on this button user will be redirected to the checkout route to review his books services  */}
         </div>
     );
 };

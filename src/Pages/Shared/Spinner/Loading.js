@@ -3,6 +3,7 @@ import { Spinner } from 'react-bootstrap';
 
 const Loading = () => {
     return (
+        //using bootstrap spinner animation to show when page is loading
         <div style={{ height: '300px' }} className='w-100 d-flex justify-content-center align-items-center'>
             <Spinner animation="grow" variant="primary" />
         </div>
