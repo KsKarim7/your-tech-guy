@@ -7,10 +7,12 @@ Live Site Link:
 A short description about this site :
 
 - This site is about an individual tech service provider who is teaches and provides mentorship on the topics he is expert.  
+- APIs based tech course application.  
+- User can login into the application by email and also their social google account.  
 - Here user will be able to learn about web development, information technology .
 - A short description will be given in each of the services about it
 - Any one around the world can avail my course and mentorship through online payment.
-- Each course's time is around 6months, to be expert in an individual skill it takes a person atleast of 6months!
+- Each course's time is around 6months, to be expert in an individual skill it takes a person at least of 6months!
 
 
 
