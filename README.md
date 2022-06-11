@@ -9,8 +9,9 @@ A short description about this site :
 - This site is about an individual tech service provider who teaches and provides mentorship on the topics he is expert in.  
 - User can log into this site with firebase email and google authentication system.  
 - APIs based tech course application.  
-- User can login into the application by email and also their social google account.  
-- A short description will be given in each of the services about it.
+- To avail service user need to log in to the site otherwise he will be redirected to the login page.
+- User's email must need to be verified through a verification message otherwise he can't log in.
+
 
 
 
