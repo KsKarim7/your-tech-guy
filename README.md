@@ -2,17 +2,15 @@
  
 Website Name :Your Tech Guy
 
-Live Site Link: 
+Live Site Link: https://your-life-coach.web.app/
 
 A short description about this site :
 
-- This site is about an individual tech service provider who is teaches and provides mentorship on the topics he is expert.  
+- This site is about an individual tech service provider who teaches and provides mentorship on the topics he is expert in.  
+- User can log into this site with firebase email and google authentication system.  
 - APIs based tech course application.  
 - User can login into the application by email and also their social google account.  
-- Here user will be able to learn about web development, information technology .
-- A short description will be given in each of the services about it
-- Any one around the world can avail my course and mentorship through online payment.
-- Each course's time is around 6months, to be expert in an individual skill it takes a person at least of 6months!
+- A short description will be given in each of the services about it.
 
 
 
