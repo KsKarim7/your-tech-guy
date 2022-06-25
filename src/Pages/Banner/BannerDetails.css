@@ -1,0 +1,12 @@
+.picture {
+    width: 50px;
+    border-radius: 30px;
+}
+
+.review {
+    background-color: rgb(245, 233, 228);
+}
+
+.icon {
+    color: rgb(192, 142, 121);
+}

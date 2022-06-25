@@ -1,14 +1,17 @@
 import React from 'react';
-import programming from '../../images/prog.jpeg'
+import mentor from '../../images/mentor.jpg'
 import Banner from '../Banner/Banner';
 import Description from '../Shared/Description/Description';
 
 const Home = () => {
+    const style = {
+        width: '80%',
+        // height: '50%'
+    }
     return (
         <div>
-            <div className='text-center bg-dark '>
-                <img src={programming} className="img-fluid" alt="..."></img>
-
+            <div className='text-center bg-dark'>
+                <img style={style} src={mentor} className="img-fluid" alt="..."></img>
             </div>
             <Description></Description>
             <Banner></Banner>

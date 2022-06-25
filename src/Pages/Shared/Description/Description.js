@@ -2,8 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './Description.css'
 import ServiceDescription from '../ServiceDescription/ServiceDescription';
 
-const Description = (props) => {
-    // const {name, }
+const Description = () => {
     const [services, setServices] = useState([]);
 
     useEffect(() => {
@@ -14,8 +13,8 @@ const Description = (props) => {
 
     return (
         <div>
-            <h2 className='text-center title my-5'>Courses and Mentorship</h2>
-            <div className='services-container'>
+            <h2 className='text-center fs-1  mb-5 mt-3'>Courses and Mentorship</h2>
+            <div className='services-container container '>
                 {
                     services.map(service => <ServiceDescription
                         key={service.id}
