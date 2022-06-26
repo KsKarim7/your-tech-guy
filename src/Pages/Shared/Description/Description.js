@@ -12,7 +12,7 @@ const Description = () => {
     }, [])
 
     return (
-        <div>
+        <div id='courses'>
             <h2 className='text-center fs-1  mb-5 mt-3'>Courses and Mentorship</h2>
             <div className='services-container container '>
                 {

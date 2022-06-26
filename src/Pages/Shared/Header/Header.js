@@ -2,7 +2,8 @@ import { signOut } from 'firebase/auth';
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { useAuthState } from 'react-firebase-hooks/auth';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
+import { NavHashLink as Link } from 'react-router-hash-link';
 import auth from '../../../firebase.init';
 import guy from '../../../images/favicon.jpg'
 
@@ -25,10 +26,11 @@ const Header = () => {
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mx-auto pe-5">
                             <Nav.Link as={Link} to='/home'>Home</Nav.Link>
-                            <Nav.Link href="home#services">Courses</Nav.Link>
+                            <Nav.Link as={Link} to="/home#courses" smooth>Courses</Nav.Link>
                             <Nav.Link as={Link} to='/blogs'>Blogs</Nav.Link>
-                            <Nav.Link href='/' >Reviews</Nav.Link>
+                            <Nav.Link as={Link} to="/home#reviews" smooth>Reviews</Nav.Link>
                             <Nav.Link as={Link} to='/about'>About</Nav.Link>
+                            {/* <NavHashLink to="/home/#comments">Hashing</NavHashLink> */}
                         </Nav>
                         <Nav>
                             {

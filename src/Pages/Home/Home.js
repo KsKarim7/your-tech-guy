@@ -1,5 +1,5 @@
 import React from 'react';
-import mentor from '../../images/mentor.jpg'
+import mentor from '../../images/guy.jpg'
 import Banner from '../Banner/Banner';
 import Description from '../Shared/Description/Description';
 

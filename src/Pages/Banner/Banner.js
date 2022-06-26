@@ -11,7 +11,7 @@ const Banner = () => {
             .then(data => setReviews(data))
     }, [])
     return (
-        <div >
+        <div id='reviews'>
             <h2 className='text-center fs-1  my-5'>Some reviews of our students</h2>
             <div className='services-container container'>
                 {
