@@ -9,8 +9,8 @@ const Home = () => {
         // height: '50%'
     }
     return (
-        <div>
-            <div className='text-center bg-dark'>
+        <div className=''>
+            <div className='text-center bg-dark mentor'>
                 <img style={style} src={mentor} className="img-fluid" alt="..."></img>
             </div>
             <Description></Description>
