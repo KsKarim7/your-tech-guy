@@ -1,0 +1,51 @@
+footer {
+    margin-top: 80px;
+    margin-bottom: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 15px 0px 10px 0px;
+}
+
+.content p {
+    width: 50%;
+    font-size: 16px;
+}
+
+.text {
+    color: gray;
+}
+
+.socials a {
+
+    font-size: 22px;
+    color: rgb(192, 142, 121);
+
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+}
+
+.foot {
+    text-align: center;
+    padding-bottom: 10px;
+    background-color: black;
+}
